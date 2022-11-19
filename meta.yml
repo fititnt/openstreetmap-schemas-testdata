@@ -1,0 +1,18 @@
+temp-schema:
+  osm-wiki-api-v06:
+    file: osm-wiki-api-v06.dtd
+    source: https://wiki.openstreetmap.org/wiki/API_v0.6/DTD
+  osm-wiki-api-capabilities-v06:
+    file: osm-wiki-api-capabilities-v06.xsd
+    source: https://wiki.openstreetmap.org/wiki/API_v0.6/XSD
+    note: |
+      This xsd matches the description of the GET /api/capabilities api-call.
+      C00002.xml
+
+testdata:
+  C00001:
+    file: C00001.xml
+    source: https://wiki.openstreetmap.org/wiki/OSM_XML
+  C00002:
+    file: C00002.xml
+    source: https://wiki.openstreetmap.org/wiki/API_v0.6#Capabilities:_GET_.2Fapi.2Fcapabilities

@@ -10,7 +10,8 @@ xmllint --noout --schema temp-schema/osm-wiki-api-capabilities-v06.xsd tests/dat
 curl http://www.openstreetmap.org/api/0.6/relation/65559 --output temp/rel-test.xml
 xmllint --noout --schema osm0.6.xsd temp/rel-test.xml
 ```
-
+## To dos
+- https://wiki.openstreetmap.org/wiki/Changeset#Tags_on_changesets
 
 ## Disclaimers
 <!--

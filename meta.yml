@@ -1,7 +1,11 @@
 temp-schema:
-  OSMSchema.xsd:
+  OSMSchema:
     file: OSMSchema.xsd
     source: https://gist.github.com/simon04/24ac9e9b1d0ce3c6655c1ffb2329ebc7
+  osm.schema:
+    file: osm.schema.json
+    note: |
+      Quick (but wrong) automated inference from C0003.json.
   osm-wiki-api-v06:
     file: osm-wiki-api-v06.dtd
     source: https://wiki.openstreetmap.org/wiki/API_v0.6/DTD
@@ -10,15 +14,21 @@ temp-schema:
     source: https://wiki.openstreetmap.org/wiki/API_v0.6/XSD
     note: |
       This xsd matches the description of the GET /api/capabilities api-call.
-      C00002.xml
+      C0002.xml
+  vector_tile-v21:
+    file: vector_tile-v21.proto
+    source: https://github.com/mapbox/vector-tile-spec/tree/master/2.1
 
 testdata:
-  C00001:
-    file: C00001.xml
+  C0001:
+    file: C0001.xml
     source: https://wiki.openstreetmap.org/wiki/OSM_XML
-  C00002:
-    file: C00002.xml
+  C0002:
+    file: C0002.xml
     source: https://wiki.openstreetmap.org/wiki/API_v0.6#Capabilities:_GET_.2Fapi.2Fcapabilities
   C0003:
     file: C0003.json
     source: https://wiki.openstreetmap.org/wiki/OSM_JSON
+  C0004:
+    file: C0004.xml
+    source: https://wiki.openstreetmap.org/wiki/OsmChange

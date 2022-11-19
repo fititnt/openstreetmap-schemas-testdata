@@ -122,17 +122,22 @@ main_loop_items() {
 
 set +e
 set -x
-xmllint --noout --schema temp-schema/osm-wiki-api-capabilities-v06.xsd tests/data/C00002.xml
+xmllint --noout --schema temp-schema/osm-wiki-api-capabilities-v06.xsd tests/data/C0002.xml
 echo ""
 echo ""
 
-xmllint --noout --schema temp-schema/osm-wiki-api-capabilities-v06.xsd tests/data/C00002.xml
+xmllint --noout --schema temp-schema/osm-wiki-api-capabilities-v06.xsd tests/data/C0002.xml
 echo ""
 echo ""
 
-xmllint --noout --schema temp-schema/osm-wiki-api-capabilities-v06.xsd tests/data/C00001.xml
+xmllint --noout --schema temp-schema/osm-wiki-api-capabilities-v06.xsd tests/data/C0001.xml
 echo ""
 echo ""
 
-xmllint --noout --schema temp-schema/OSMSchema.xsd tests/data/C00001.xml
+xmllint --noout --schema temp-schema/OSMSchema.xsd tests/data/C0001.xml
+set -x
+echo ""
+echo ""
+
+jsonschema --instance tests/data/C0003.json temp-schema/osm.schema.json
 set -x

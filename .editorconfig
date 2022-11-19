@@ -11,5 +11,5 @@ insert_final_newline = true
 
 # Matches multiple files with brace expansion notation
 # Set default charset
-[*.{xml,xsd,dtd}]
+[*.{xml,xsd,dtd,json}]
 indent_size = 2

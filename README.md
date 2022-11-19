@@ -4,6 +4,9 @@
 ## temp notes
 
 ```bash
+xmllint --noout --schema temp-schema/osm-wiki-api-capabilities-v06.xsd tests/data/C00002.xml
+
+# https://lists.openstreetmap.org/pipermail/dev/2012-March/024659.html
 curl http://www.openstreetmap.org/api/0.6/relation/65559 --output temp/rel-test.xml
 xmllint --noout --schema osm0.6.xsd temp/rel-test.xml
 ```

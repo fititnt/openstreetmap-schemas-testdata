@@ -1,17 +1,15 @@
 # openstreetmap-schemas-testdata
 [draft] See https://community.openstreetmap.org/t/openstreetmap-dtd-xsd-json-schema-etc-for-commonly-shared-data/5653
 
-## temp notes
 
-```bash
-xmllint --noout --schema temp-schema/osm-wiki-api-capabilities-v06.xsd tests/data/C00002.xml
+## References
+- [2022 - Evolution of the OSM Data Mode](https://media.jochentopf.com/media/2022-08-15-study-evolution-of-the-osm-data-model.pdf)
+  - Note: in special the sections about file formats. However, the rest of document also explain potential syntax rules.
 
-# https://lists.openstreetmap.org/pipermail/dev/2012-March/024659.html
-curl http://www.openstreetmap.org/api/0.6/relation/65559 --output temp/rel-test.xml
-xmllint --noout --schema osm0.6.xsd temp/rel-test.xml
-```
+<!--
 ## To dos
 - https://wiki.openstreetmap.org/wiki/Changeset#Tags_on_changesets
+-->
 
 ## Disclaimers
 <!--

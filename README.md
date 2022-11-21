@@ -5,6 +5,7 @@
 ## References
 - [2022 - Evolution of the OSM Data Mode](https://media.jochentopf.com/media/2022-08-15-study-evolution-of-the-osm-data-model.pdf)
   - Note: in special the sections about file formats. However, the rest of document also explain potential syntax rules.
+- https://github.com/osmlab/osm-data-model/discussions
 
 <!--
 ## To dos

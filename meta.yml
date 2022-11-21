@@ -32,3 +32,15 @@ testdata:
   C0004:
     file: C0004.xml
     source: https://wiki.openstreetmap.org/wiki/OsmChange
+  C0005:
+    file: C0005.xml
+    source: https://www.openstreetmap.org/api/0.6/changeset/1
+  C0006:
+    file: C0006.xml
+    source: https://www.openstreetmap.org/api/0.6/node/1
+  C0007:
+    file: C0007.xml
+    source: https://www.openstreetmap.org/api/0.6/relation/10000
+  C0008:
+    file: C0008.xml
+    source: https://www.openstreetmap.org/api/0.6/way/100
